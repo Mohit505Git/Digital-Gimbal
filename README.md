@@ -1,16 +1,16 @@
 # Digital-Gimbal
-This project contains algorithm for optical image stabilisation or Digital Gimbal  using optical flow and obtaining rotation angle using the rigid transform between two consecutive video frame. First version contains the script for a raspberry pi with a raspberry pi camera.
+This project contains algorithm for optical Image Stabilisation or Digital Gimbal using optical flow and obtaining rotation angle using the rigid transform between two consecutive video frame. First version contains the script for a raspberry pi with a raspberry pi camera.
 # Digital gimbal for rotation about z axis for a raspberry pi using a raspberry pi camera.
 
 I was inspired to work on this project mainly because of the application and the need for digital image stabilisation on aerial robotics platforms.
-A mechanical gimbal is a very bulky and redundant solution for the above purpose. Also, mechanical gimbals are hard to mount on small platforms, consume power which can be used to enhance the drone flight time.
+A mechanical gimbal is a very bulky and redundant solution for the above purpose. Also, mechanical gimbals are hard to mount on small platforms and consume power which can be used to enhance the drone flight time.
 
 ### Prerequisites and Installing
 
 1) One must have a raspberry pi and a raspberry pi camera attached to it(I would recommend version 2 of the camera for best results)
 2) Also install Opencv, numpy, imutils,as essential modules for the raspberry pi camera.
   * You can get numpy and imutils using pip.
-  * to get basic camera feed see the following and refer to 
+  * To get basic camera feed see the following and refer to 
   https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/   
 ```
 from picamera.array import PiRGBArray
