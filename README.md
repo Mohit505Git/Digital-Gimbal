@@ -44,8 +44,9 @@ camera.framerate = 49
 That's all
 You will see the stabilised image of "Stab" window.
 
-Have a nice days.
+Have a nice day.
 
+For more knowlegde, search the functions used in opencv docs.
 ## Author
 
 * **Mohit Singh**
