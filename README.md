@@ -9,8 +9,8 @@ A mechanical gimbal is a very bulky and redundant solution for the above purpose
 
 1) One must have a raspberry pi and a raspberry pi camera attached to it(I would recommend version 2 of the camera for best results)
 2) Also install Opencv, numpy, imutils,as essential modules for the raspberry pi camera.
-  a) You can get numpy and imutils using pip.
-  b) to get basic camera feed see the following and refer to 
+  * You can get numpy and imutils using pip.
+  * to get basic camera feed see the following and refer to 
   https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/   
 ```
 from picamera.array import PiRGBArray
@@ -46,6 +46,6 @@ You will see the stabilised image of "Stab" window.
 
 Have a nice days.
 
-## Authors
+## Author
 
 * **Mohit Singh**
